@@ -350,13 +350,23 @@ body {
 
 }
 
-@media (max-width: 576px){
+@media (max-width: 480px){
     body{
         width: auto;
         height: auto;
         text-align: center;
         justify-content: center;
         display: block;
+    }
+
+    .navbar{
+      flex-direction: column;
+      font-size: none;
+      font-weight: 0;
+    }
+
+    .home-content{
+      margin-top: 200px;
     }
     .about-text{
         flex-direction: column;
@@ -369,15 +379,46 @@ body {
         display: block;
         width: auto;
         height: auto;
+        margin-top: 400px;
+        margin-right: 100px;
+
+    }
+
+    .row-one{
+      flex-direction: column;
+      display: block;
+    }
+
+    .row-two{
+      flex-direction: column;
+      display: block;
+      
     }
 
     .home{
       flex-direction: column;
     }
 
+    .home-content{
+      font-size: 10px;
+    }
+
+    .image{
+      margin-top: 100px;
+      margin-bottom: 100px;
+      position: static;
+    }
+
     .about{
       display: flex;
       flex-direction: column;
+    }
+
+    .footer{
+      flex-direction: column;
+    }
+    .infor{
+      margin-top:  100px; 
     }
 
 }
